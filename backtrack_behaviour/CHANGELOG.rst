@@ -2,6 +2,9 @@
 Changelog for package backtrack_behaviour
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2014-11-10)
+------------------
+
 0.0.1 (2014-11-10)
 ------------------
 * Merge remote-tracking branch 'upstream/hydro-devel' into hydro-devel

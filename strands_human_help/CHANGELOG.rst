@@ -2,6 +2,9 @@
 Changelog for package strands_human_help
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2014-11-10)
+------------------
+
 0.0.1 (2014-11-10)
 ------------------
 * only say thank you when you're helped
