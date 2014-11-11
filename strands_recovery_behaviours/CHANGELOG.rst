@@ -2,6 +2,9 @@
 Changelog for package strands_recovery_behaviours
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2014-11-11)
+------------------
+
 0.0.2 (2014-11-10)
 ------------------
 * Removing monitored_navigation as required component.
