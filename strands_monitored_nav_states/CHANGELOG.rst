@@ -2,6 +2,11 @@
 Changelog for package strands_monitored_nav_states
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2014-11-14)
+------------------
+* only logs to db is explicitly told to do it
+* Contributors: Bruno Lacerda
+
 0.0.3 (2014-11-11)
 ------------------
 * small bug fix
