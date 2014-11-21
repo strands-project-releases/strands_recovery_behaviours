@@ -1,0 +1,125 @@
+ros-hydro-strands-monitored-nav-states (0.0.8-0precise) precise; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-hydro-strands-monitored-nav-states (0.0.7-0precise) precise; urgency=high
+
+  * updated changelogs
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda, Marc Hanheide
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-hydro-strands-monitored-nav-states (0.0.6-0precise) precise; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-hydro-strands-monitored-nav-states (0.0.5-0precise) precise; urgency=high
+
+  * keeping nodes printing run dependencies that are missing
+  * wait a bit more to ask for help
+  * changing default backtrack tries to 2
+  * moving service pause to monitored_navigation
+  * editing human help service
+  * debugging bumper recovery
+  * solving ask help service call bug
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 18 Nov 2014 00:00:00 -0000
+
+ros-hydro-strands-monitored-nav-states (0.0.4-0precise) precise; urgency=high
+
+  * only logs to db is explicitly told to do it
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 14 Nov 2014 00:00:00 -0000
+
+ros-hydro-strands-monitored-nav-states (0.0.3-0precise) precise; urgency=high
+
+  * small bug fix
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 11 Nov 2014 00:00:00 -0000
+
+ros-hydro-strands-monitored-nav-states (0.0.2-0precise) precise; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 10 Nov 2014 00:00:00 -0000
+
+ros-hydro-strands-monitored-nav-states (0.0.1-0precise) precise; urgency=high
+
+  * using new AskHelp srv definition
+  * renaming smach recoveries package
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 10 Nov 2014 00:00:00 -0000
+
+
