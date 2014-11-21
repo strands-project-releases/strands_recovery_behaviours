@@ -2,6 +2,9 @@
 Changelog for package backoff_behaviour
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2014-11-21)
+------------------
+
 0.0.8 (2014-11-21)
 ------------------
 * removed invalid install target
