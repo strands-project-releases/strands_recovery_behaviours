@@ -2,6 +2,12 @@
 Changelog for package strands_monitored_nav_states
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2014-11-21)
+------------------
+* fixing typo
+* catching clear costmap exceptions
+* Contributors: Bruno
+
 0.0.8 (2014-11-21)
 ------------------
 
