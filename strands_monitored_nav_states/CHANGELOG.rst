@@ -2,6 +2,9 @@
 Changelog for package strands_monitored_nav_states
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.8 (2014-11-21)
+------------------
+
 0.0.7 (2014-11-21)
 ------------------
 * updated changelogs
