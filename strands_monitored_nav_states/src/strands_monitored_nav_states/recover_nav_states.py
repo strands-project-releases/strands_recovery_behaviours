@@ -9,10 +9,55 @@ from geometry_msgs.msg import Pose, PoseStamped
 import actionlib
 from actionlib_msgs.msg import GoalStatus
 from backtrack_behaviour.msg import BacktrackAction, BacktrackGoal
+from mary_tts.msg import maryttsAction, maryttsGoal
 
 from std_srvs.srv import Empty
 from scitos_msgs.srv import EnableMotors
 from strands_navigation_msgs.srv import AskHelp, AskHelpRequest
+
+
+class SleepAndRetry(smach.State):
+    def __init__(self, max_sleep_and_retry_attempts=1, sleep_time=5):
+        smach.State.__init__(self,
+                             outcomes=['try_nav', 'do_other_recovery', 'preempted'],
+                             input_keys=['goal','n_nav_fails'],
+                             output_keys=['goal','n_nav_fails'],
+                             )
+
+        rospy.set_param('max_sleep_and_retry_attempts', max_sleep_and_retry_attempts)
+        rospy.set_param('sleep_time', sleep_time)
+        
+        self.nav_stat=None
+        
+        
+    def execute(self, userdata):
+        max_sleep_and_retry_attempts=rospy.get_param('max_sleep_and_retry_attempts', 1)
+        sleep_time=rospy.get_param('sleep_time', 5)
+        
+        self.nav_stat=MonitoredNavEventClass()
+        self.nav_stat.initialize(recovery_mechanism="nav_sleep_and_retry")
+        
+        
+        for i in range(0,sleep_time):
+            if self.preempt_requested():
+                self.service_preempt(userdata.n_nav_fails)
+                return 'preempted'
+            rospy.sleep(1)
+       
+            
+        self.nav_stat.finalize(was_helped=False,n_tries=userdata.n_nav_fails)
+        self.nav_stat.insert()
+        
+        if userdata.n_nav_fails>max_sleep_and_retry_attempts:
+            return 'do_other_recovery'
+        else:
+            return 'try_nav'
+            
+    def service_preempt(self, n_tries):
+        self.nav_stat.finalize(was_helped=False,n_tries=n_tries)
+        self.nav_stat.insert()
+        smach.State.service_preempt(self)
+
 
 
 class ClearCostmaps(smach.State):
@@ -81,6 +126,17 @@ class Backtrack(smach.State):
                              )
                              
         self.nav_stat=None
+        
+        self.speaker=actionlib.SimpleActionClient('/speak', maryttsAction)
+        got_server=self.speaker.wait_for_server(rospy.Duration(1))
+        while not got_server:
+            rospy.loginfo("Backtrack behaviour is waiting for marytts action...")
+            got_server=self.speaker.wait_for_server(rospy.Duration(1))
+            if rospy.is_shutdown():
+                return
+        
+        rospy.loginfo("Backtrack behaviour got marytts action")
+        self.speech="I am stuck here, so I will start moving backwards. Please get out of the way."
 
         rospy.set_param('max_backtrack_attempts', max_backtrack_attempts)   
         rospy.set_param('backtrack_meters_back', backtrack_meters_back)
@@ -108,6 +164,9 @@ class Backtrack(smach.State):
             
         self.nav_stat=MonitoredNavEventClass()
         self.nav_stat.initialize(recovery_mechanism="nav_backtrack")
+        
+        self.speaker.send_goal(maryttsGoal(text=self.speech))
+        rospy.sleep(2)
             
         backtrack_goal = BacktrackGoal()
         backtrack_goal.meters_back = backtrack_meters_back
@@ -241,6 +300,7 @@ class Help(smach.State):
 
 
     def finish_execution(self, n_tries):
+        self.enable_motors(True) 
         self.service_msg.interaction_status=AskHelpRequest.HELP_FINISHED
         self.service_msg.interaction_service='none'
         self.ask_help()
