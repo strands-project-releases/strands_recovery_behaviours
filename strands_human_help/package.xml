@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>strands_human_help</name>
-  <version>0.0.9</version>
+  <version>0.0.10</version>
   <description>The strands_human_help package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
@@ -46,12 +46,14 @@
   <build_depend>strands_webserver</build_depend>
   <build_depend>actionlib</build_depend> 
   <build_depend>mary_tts</build_depend>
+  <build_depend>strands_tweets</build_depend>
 
   <run_depend>rospy</run_depend>
   <run_depend>monitored_navigation</run_depend>
   <run_depend>strands_webserver</run_depend>
   <run_depend>actionlib</run_depend>
   <run_depend>mary_tts</run_depend>
+  <run_depend>strands_tweets</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
