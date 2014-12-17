@@ -1,4 +1,3 @@
-strands_recovery_behaviours
-===========================
+### Overview
 
-Recovery behaviours for strands_navigation
+Simple behaviour to get away from obstacles.
