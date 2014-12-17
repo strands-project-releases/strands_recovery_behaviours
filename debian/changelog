@@ -1,0 +1,33 @@
+ros-indigo-backoff-behaviour (0.0.10-2trusty) trusty; urgency=high
+
+
+
+ -- gestom <tkrajnik@lincoln.ac.uk>  Sun, 23 Nov 2014 00:00:00 -0000
+
+ros-indigo-backoff-behaviour (0.0.9-2trusty) trusty; urgency=high
+
+
+
+ -- gestom <tkrajnik@lincoln.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-backoff-behaviour (0.0.8-2trusty) trusty; urgency=high
+
+  * removed invalid install target
+  * Contributors: Marc Hanheide
+
+ -- gestom <tkrajnik@lincoln.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-backoff-behaviour (0.0.7-2trusty) trusty; urgency=high
+
+  * Adjusting version number
+  * updated changelogs
+  * Backoff recovery fix.
+  * A simple behaviour for getting away from obstacles
+  * Contributors: Christian Dondrup, Marc Hanheide, Tom Krajnik
+  * Backoff recovery fix.
+  * A simple behaviour for getting away from obstacles
+  * Contributors: Tom Krajnik
+
+ -- gestom <tkrajnik@lincoln.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+
