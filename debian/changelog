@@ -1,0 +1,70 @@
+ros-indigo-walking-group-recovery (0.0.11-0trusty) trusty; urgency=high
+
+  * Fixing version number
+  * Now stopping music when we are finished
+  * Created the walking group recovery with server to change back and forth between state machines
+  * Contributors: Christian Dondrup, Nils Bore
+
+ -- Nils Bore <nilsbore@gmail.com>  Tue, 17 Feb 2015 00:00:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.10-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Sun, 23 Nov 2014 00:00:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Fri, 21 Nov 2014 18:02:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Fri, 21 Nov 2014 11:31:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Fri, 21 Nov 2014 10:29:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Tue, 18 Nov 2014 00:00:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.4-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Fri, 14 Nov 2014 00:00:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Tue, 11 Nov 2014 00:00:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Mon, 10 Nov 2014 22:03:00 -0000
+
+ros-indigo-walking-group-recovery (0.0.1-0trusty) trusty; urgency=high
+
+
+
+ -- Nils Bore <nilsbore@gmail.com>  Mon, 10 Nov 2014 21:12:00 -0000
+
+
