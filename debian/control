@@ -1,0 +1,12 @@
+Source: ros-hydro-walking-group-recovery
+Section: misc
+Priority: extra
+Maintainer: Nils Bore <nilsbore@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-pygame, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-mary-tts, ros-hydro-monitored-navigation, ros-hydro-rospy, ros-hydro-smach, ros-hydro-smach-ros, ros-hydro-std-msgs, ros-hydro-strands-monitored-nav-states, ros-hydro-strands-navigation-msgs
+Homepage: https://github.com/strands-project/strands_deployment
+Standards-Version: 3.9.2
+
+Package: ros-hydro-walking-group-recovery
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-mary-tts, ros-hydro-monitored-navigation, ros-hydro-rospy, ros-hydro-smach, ros-hydro-smach-ros, ros-hydro-std-msgs, ros-hydro-strands-monitored-nav-states, ros-hydro-strands-navigation-msgs
+Description: The AAF walking group monitored navigation recovery package
