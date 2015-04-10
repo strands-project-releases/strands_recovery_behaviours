@@ -2,6 +2,9 @@
 Changelog for package strands_recovery_behaviours
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.13 (2015-04-10)
+-------------------
+
 0.0.12 (2015-03-24)
 -------------------
 * Adding walking_group_recovery to meta package
