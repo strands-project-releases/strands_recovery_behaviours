@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>walking_group_recovery</name>
-  <version>0.0.13</version>
+  <version>0.0.14</version>
   <description>The AAF walking group monitored navigation recovery package</description>
 
   <maintainer email="nilsbore@gmail.com">Nils Bore</maintainer>
@@ -26,6 +26,7 @@
   <build_depend>python-pygame</build_depend>
   <build_depend>pygame_managed_player</build_depend>
   <build_depend>mongodb_media_server</build_depend>
+  <build_depend>sound_player_server</build_depend>
 
   <run_depend>std_msgs</run_depend>
   <run_depend>actionlib</run_depend>
@@ -39,6 +40,7 @@
   <run_depend>rospy</run_depend>
   <run_depend>pygame_managed_player</run_depend>
   <run_depend>mongodb_media_server</run_depend>
+  <run_depend>sound_player_server</run_depend>
 
   <export/>
 </package>
