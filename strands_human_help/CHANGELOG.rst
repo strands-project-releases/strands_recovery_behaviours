@@ -2,6 +2,9 @@
 Changelog for package strands_human_help
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.14 (2015-04-22)
+-------------------
+
 0.0.13 (2015-04-10)
 -------------------
 * only complain about lack of proper help when help was offered
