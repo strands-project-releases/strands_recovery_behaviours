@@ -1,5 +1,0 @@
-bool use_walking_recovery
----
-string package
-string recovery_file
-string recovery_class
