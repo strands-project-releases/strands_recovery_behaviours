@@ -1,0 +1,182 @@
+ros-indigo-strands-monitored-nav-states (0.0.16-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 13 May 2015 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.15-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 28 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.14-0trusty) trusty; urgency=high
+
+  * fixing bumper recover report on whether help was offered
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 22 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.13-0trusty) trusty; urgency=high
+
+  * bug fixes+code clean
+  * update recover states to be subclasses of new RecoverState - to allow on the fly enable/disable
+  * Merge branch 'hydro-devel' of https://github.com/strands-project/strands_recovery_behaviours into hydro-devel
+    Conflicts:
+    strands_monitored_nav_states/src/strands_monitored_nav_states/recover_nav_states.py
+  * Moved speaking from monitored nav states to backtrack, with check if it got a global plan
+  * first stuff to allow recover states to be deactivated
+  * Contributors: Bruno Lacerda, Nils Bore
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 10 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.12-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 24 Mar 2015 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.10-0trusty) trusty; urgency=high
+
+  * Making sure free run is turned off after help is done
+  * adding simple "pause and the rety nav" recovery state
+  * removing clear costmaps recovery as move base seems to not be robust in terms of costmap reloading
+  * increase default of max bumper recoveries to very large number. it will be removed later because it doesnt make sense
+  * robot speaks to warn he is going to backtrack
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Sun, 23 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.9-0trusty) trusty; urgency=high
+
+  * fixing typo
+  * catching clear costmap exceptions
+  * Contributors: Bruno
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.7-0trusty) trusty; urgency=high
+
+  * updated changelogs
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda, Marc Hanheide
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+  * changing default mongo loging back to true
+  * minor code clean
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * reducing time waited before clearing the costmaps
+  * making sure states preempt
+  * bug fix on clear costmaps recovery
+  * making sure bumper monitor does not try to restart motors after finding a barrier
+  * adding force clear costmap state;
+    all nav recovery states put in the same file
+  * stop using max recover attempts for nav as it always output to topological nav anyway
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.5-0trusty) trusty; urgency=high
+
+  * keeping nodes printing run dependencies that are missing
+  * wait a bit more to ask for help
+  * changing default backtrack tries to 2
+  * moving service pause to monitored_navigation
+  * editing human help service
+  * debugging bumper recovery
+  * solving ask help service call bug
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 18 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.4-0trusty) trusty; urgency=high
+
+  * only logs to db is explicitly told to do it
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 14 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.3-0trusty) trusty; urgency=high
+
+  * small bug fix
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 11 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 10 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-monitored-nav-states (0.0.1-0trusty) trusty; urgency=high
+
+  * using new AskHelp srv definition
+  * renaming smach recoveries package
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 10 Nov 2014 00:00:00 -0000
+
+
