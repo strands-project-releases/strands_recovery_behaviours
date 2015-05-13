@@ -2,6 +2,9 @@
 Changelog for package walking_group_recovery
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.16 (2015-05-13)
+-------------------
+
 0.0.15 (2015-04-28)
 -------------------
 * Forgot to install the launch file, added now
