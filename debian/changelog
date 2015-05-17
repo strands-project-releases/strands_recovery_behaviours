@@ -1,0 +1,124 @@
+ros-indigo-strands-human-help (0.0.17-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Sun, 17 May 2015 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.16-0trusty) trusty; urgency=high
+
+  * Changed to utf8 character encoding and added commas
+  * Added localization for backtracking and help screens and speech
+  * Contributors: Nils Bore
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 13 May 2015 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.15-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 28 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.14-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 22 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.13-0trusty) trusty; urgency=high
+
+  * only complain about lack of proper help when help was offered
+  * first stuff to allow recover states to be deactivated
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 10 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.12-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 24 Mar 2015 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.10-0trusty) trusty; urgency=high
+
+  * Changing help speech to explicitely tell people to look to the robot's screen
+  * bug fixes for twitter help
+  * adding twitter help - always for magnetic strip, once when nav or bumper fails 20 times in a row
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Sun, 23 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.7-0trusty) trusty; urgency=high
+
+  * updated changelogs
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * proper warning message
+  * stop waiting for mary as it might block the whole state machine
+  * Contributors: Bruno Lacerda, Marc Hanheide
+  * magnetic strip monitor and recovery
+    just asks to call a robot handler and puts a message on screen
+    to restart the navigation there needss to be an explicit service call to /reset_barrier_stop done by one of us
+  * proper warning message
+  * stop waiting for mary as it might block the whole state machine
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.6-0trusty) trusty; urgency=high
+
+  * say correct sentence after help fail
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Wed, 19 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.5-0trusty) trusty; urgency=high
+
+  * keeping nodes printing run dependencies that are missing
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 18 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.4-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Fri, 14 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.3-0trusty) trusty; urgency=high
+
+  * Merge pull request #15 <https://github.com/strands-project/strands_recovery_behaviours/issues/15> from BFALacerda/hydro-devel
+    small bug fix
+  * update maintainer name in package.xml
+  * Contributors: BFALacerda, Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Tue, 11 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 10 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-human-help (0.0.1-0trusty) trusty; urgency=high
+
+  * only say thank you when you're helped
+  * merging nav help speech and nav help screen to a single package
+    total rewrite of the classes in order to make their addition and removal to monitored nav similar to the recovery behaviours
+  * Contributors: Bruno Lacerda
+
+ -- Bruno Lacerda <b.lacerda@cs.bham.ac.uk>  Mon, 10 Nov 2014 00:00:00 -0000
+
+
