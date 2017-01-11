@@ -1,3 +1,30 @@
+## strands_recovery_behaviours (indigo) - 0.0.19-0
+
+The packages in the `strands_recovery_behaviours` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_recovery_behaviours` on `Wed, 11 Jan 2017 16:43:22 -0000`
+
+These packages were released:
+- `backoff_behaviour`
+- `backtrack_behaviour`
+- `strands_human_help`
+- `strands_monitored_nav_states`
+- `strands_recovery_behaviours`
+- `walking_group_recovery`
+
+Version of package(s) in repository `strands_recovery_behaviours`:
+- upstream repository: https://github.com/strands-project/strands_recovery_behaviours.git
+- release repository: https://github.com/strands-project-releases/strands_recovery_behaviours.git
+- rosdistro version: `0.0.18-0`
+- old version: `0.0.18-0`
+- new version: `0.0.19-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## strands_recovery_behaviours (indigo) - 0.0.18-0
 
 The packages in the `strands_recovery_behaviours` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_recovery_behaviours` on `Thu, 03 Nov 2016 08:48:49 -0000`
