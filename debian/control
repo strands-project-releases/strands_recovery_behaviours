@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-human-help
+Section: misc
+Priority: extra
+Maintainer: Bruno Lacerda <b.lacerda@cs.bham.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-mary-tts, ros-indigo-monitored-navigation, ros-indigo-rospy, ros-indigo-strands-tweets, ros-indigo-strands-webserver
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-human-help
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-mary-tts, ros-indigo-monitored-navigation, ros-indigo-rospy, ros-indigo-strands-tweets, ros-indigo-strands-webserver
+Description: The strands_human_help package
