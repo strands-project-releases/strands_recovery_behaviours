@@ -2,6 +2,12 @@
 Changelog for package strands_human_help
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.19 (2017-01-11)
+-------------------
+* small bug fix
+* use modal dialog
+* Contributors: Bruno Lacerda
+
 0.0.18 (2016-11-03)
 -------------------
 
