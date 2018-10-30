@@ -2,6 +2,11 @@
 Changelog for package strands_human_help
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2018-10-30)
+------------------
+* Update help_screen.py
+* Contributors: Bruno Lacerda
+
 0.0.19 (2017-01-11)
 -------------------
 * small bug fix
