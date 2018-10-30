@@ -1,0 +1,12 @@
+Source: ros-kinetic-strands-human-help
+Section: misc
+Priority: extra
+Maintainer: Bruno Lacerda <b.lacerda@cs.bham.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-catkin, ros-kinetic-mary-tts, ros-kinetic-monitored-navigation, ros-kinetic-rospy, ros-kinetic-strands-tweets, ros-kinetic-strands-webserver
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-strands-human-help
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-mary-tts, ros-kinetic-monitored-navigation, ros-kinetic-rospy, ros-kinetic-strands-tweets, ros-kinetic-strands-webserver
+Description: The strands_human_help package
