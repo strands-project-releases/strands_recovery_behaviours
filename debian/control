@@ -1,0 +1,12 @@
+Source: ros-kinetic-backtrack-behaviour
+Section: misc
+Priority: extra
+Maintainer: Nils Bore <nilsbore@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libpcl-dev, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-mary-tts, ros-kinetic-message-generation, ros-kinetic-move-base-msgs, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-scitos-msgs, ros-kinetic-scitos-ptu, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-backtrack-behaviour
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libpcl1.7, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-mary-tts, ros-kinetic-message-runtime, ros-kinetic-move-base-msgs, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-scitos-msgs, ros-kinetic-scitos-ptu, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Description: The backtrack_behaviour package
