@@ -1,3 +1,32 @@
+## strands_recovery_behaviours (kinetic) - 0.1.0-0
+
+The packages in the `strands_recovery_behaviours` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -n -t kinetic -r kinetic strands_recovery_behaviours` on `Tue, 30 Oct 2018 22:24:38 -0000`
+
+These packages were released:
+- `backoff_behaviour`
+- `backtrack_behaviour`
+- `strands_human_help`
+- `strands_monitored_nav_states`
+- `strands_recovery_behaviours`
+- `walking_group_recovery`
+
+Version of package(s) in repository `strands_recovery_behaviours`:
+
+- upstream repository: https://github.com/strands-project/strands_recovery_behaviours.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.7`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## strands_recovery_behaviours (indigo) - 0.0.19-0
 
 The packages in the `strands_recovery_behaviours` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_recovery_behaviours` on `Wed, 11 Jan 2017 16:43:22 -0000`
