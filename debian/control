@@ -1,0 +1,12 @@
+Source: ros-kinetic-strands-recovery-behaviours
+Section: misc
+Priority: extra
+Maintainer: Bruno Lacerda <b.lacerda@cs.bham.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: https://github.com/strands-project/strands_recovery_behaviours
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-strands-recovery-behaviours
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-backtrack-behaviour, ros-kinetic-monitored-navigation, ros-kinetic-strands-human-help, ros-kinetic-strands-monitored-nav-states, ros-kinetic-walking-group-recovery
+Description: The strands_recovery_behaviours
